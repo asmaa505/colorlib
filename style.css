@@ -1,6 +1,68 @@
 
 main{
-    background-image: url(./images/bg.jpg);
+    background-image: url(./images/bg.jpg); 
     background-size: cover;
     
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(3, 7, 18);
+}
+
+.div1 {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: white;
+    
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    color: white;
+    
+
+}
+
+.div2:hover {
+    border: 1px solid orange;
+}
+
+.div2 {
+    border:none;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(23, 23, 39);
+}
+.div2 i {
+    font-size: 20px;
+    color: orange;
+    background-color: #2a2a3d;
+    padding: 12px;
+    border-radius: 8px; 
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.icon:hover{
+    color:white;
+    background-color :orange;
+
+}
+
+.div2 p {
+    font-size: 14px;
+    color: #ccc;
+}
+.div2 a {
+    display: inline-block;
+    margin-top: 10px;
+    color: orange;
+    text-decoration: none;
+}
+
+.div2 a:hover {
+    text-decoration: underline;
 }
